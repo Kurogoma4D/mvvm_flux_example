@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "profile_image": "https://via.placeholder.com/150/424242/FFFFFF/?text=J"
+    },
+    {
+      "id": 2,
+      "name": "Lorem Ipsum",
+      "profile_image": "https://via.placeholder.com/150/424242/FFFFFF/?text=L"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "text": "My first post!",
+      "is_liked": false,
+      "user": {
+        "id": 1,
+        "name": "John Doe",
+        "profile_image": "https://via.placeholder.com/150/424242/FFFFFF/?text=J"
+      }
+    },
+    {
+      "id": 2,
+      "text": "Great. This is awesome placeholder that I have ever seen.",
+      "is_liked": false,
+      "user": {
+        "id": 1,
+        "name": "John Doe",
+        "profile_image": "https://via.placeholder.com/150/424242/FFFFFF/?text=J"
+      }
+    },
+    {
+      "id": 3,
+      "text": "I'm Lorem Ipsum. ロレム・イプサムの嘆き、トマト大好き学部のエリット、しかし時と活力、そのような労働と悲しみ、ブラインド行うにはいくつかの重要な事柄に座ります。長年にわたり、私は学区と長寿であれば、そのような刺激の取り組み、彼女のうち、運動の利点を分注を邪魔されたする人が来ます。クピダタットのつるの痛みになりたい宿題に、批判されてきたら痛み、マグナ逃亡しても結果の喜びを[OMITTED]",
+      "is_liked": true,
+      "user": {
+        "id": 2,
+        "name": "Lorem Ipsum",
+        "profile_image": "https://via.placeholder.com/150/424242/FFFFFF/?text=L"
+      }
+    }
+  ]
+}
